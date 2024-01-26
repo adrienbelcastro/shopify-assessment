@@ -24,10 +24,8 @@ export default function StopWatch() {
 
   //Function used to start the timer
   const startTimer = () => {
-    console.log("Starting timer...");
     if (!timerOn) {
       intervalRef.current = setInterval(() => {
-        console.log("Updating time...");
         setTime((time) => time + 50);
         console.log(time);
       }, 50);
@@ -51,7 +49,6 @@ export default function StopWatch() {
 
   //Function is called to use lap functionality
   const lapTimer = () => {
-    console.log("Lap button clicked!");
     const lapDuration =
       time - (lapTimes.length > 0 ? lapTimes[lapTimes.length - 1].duration : 0);
 
