@@ -113,13 +113,16 @@ export default function StopWatch() {
           className="button-lap"
         />
       </div>
-      <ul>
-        {lapTimes.map((lap) => (
-          <li key={lap.number}>
-            Lap {lap.number}: {formatTime(lap.duration)}
-          </li>
-        ))}
-      </ul>
+      <h3 className="lap-title">Lap Times</h3>
+      <div className="lap-container">
+        <ol>
+          {lapTimes.map((lap) => (
+            <li className="lap-font" key={lap.number}>
+              Lap {lap.number}: {formatTime(lap.duration)}
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 }
