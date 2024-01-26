@@ -1,0 +1,19 @@
+button {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: margin 0.2s ease-in-out;
+}
+
+button:hover {
+  margin-top: -10px;
+}
+
+.buttons-start {
+  background-color: greenyellow;
+}
+
+.buttons-stop {
+  background-color: red;
+}
