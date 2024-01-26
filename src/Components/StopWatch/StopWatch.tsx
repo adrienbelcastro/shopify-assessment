@@ -1,5 +1,5 @@
-import React, { useCallback, useRef, useState } from "react";
-import StopWatchButton from "./StopWatchButton";
+import React, { useRef, useState } from "react";
+import StopWatchButton from "../StopWatchButtons/StopWatchButton";
 import "./stopwatch.css";
 
 interface Lap {

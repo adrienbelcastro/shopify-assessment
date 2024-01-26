@@ -1,5 +1,5 @@
 import React from "react";
-import "./stopwatch.css";
+import "./buttons.css";
 
 interface ButtonProps {
   label: string;
