@@ -14,3 +14,24 @@
   align-items: center;
   gap: 1rem;
 }
+
+.lap-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ol {
+  padding-left: 1rem;
+}
+
+.lap-title {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.lap-font {
+  padding: 0.25rem 0;
+}
