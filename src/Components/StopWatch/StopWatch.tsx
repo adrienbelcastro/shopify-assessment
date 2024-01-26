@@ -72,9 +72,15 @@ export default function StopWatch() {
     }
   };
   const formatTime = (milliseconds: number): string => {
+    // Seconds calculation
     const seconds = Math.floor(time / 1000);
+
+    // Minutes calculation
     const minutes = Math.floor(seconds / 60);
+
+    // Hours calculation
     const hours = Math.floor(minutes / 60);
+    //Function to format the time to look like a timer
     const formattedTime = `${hours.toString().padStart(2, "0")}:${minutes
       .toString()
       .padStart(2, "0")}:${(seconds % 60).toString().padStart(2, "0")}.${(
