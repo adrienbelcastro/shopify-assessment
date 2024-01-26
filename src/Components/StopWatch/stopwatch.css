@@ -1,0 +1,16 @@
+.stopwatch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-time {
+  font-size: 10rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
